@@ -17,7 +17,7 @@ function getValues(x) {
 }
 ```
 
-After the return statement you can simply replace the function. You can specify your own functions like the linear function 2x+22, but you can also use the functions already implemented in the Math object.  <b>Wichitg is nevertheless that the *20 remains, since otherwise it is no longer true to scale! </b> If this value should want to be changed, then one must make this in the ``` drawFunction() ``` below also with the i-value. <b> This is not recommended for clarity reasons!  </b>
+After the return statement you can simply replace the function. You can specify your own functions like the linear function 2x+22, but you can also use the functions already implemented in the Math object.  <b>Important is nevertheless that the *20 remains, since otherwise it is no longer true to scale! </b> If this value should want to be changed, then one must make this in the ``` drawFunction() ``` below also with the i-value. <b> This is not recommended for clarity reasons!  </b>
 
 # Future Add-Ons
 - Functions will be much easier to enter
