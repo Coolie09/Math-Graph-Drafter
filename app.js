@@ -4,11 +4,8 @@ let start = -100;
 let canvas = document.querySelector("canvas");
 let ctx = canvas.getContext("2d")
 
-
-
 canvas.height= window.innerHeight;
 canvas.width = window.innerWidth;
-
 
 function resize() {
     canvas.height= window.innerHeight;
@@ -28,8 +25,7 @@ function drawGraph() {
 }
 
 function getValues(x) {
-    // return Math.sin(x)*20;
-    return (3*x)*20
+    return Math.sin(x)*20;
 }
 
 function drawFunction() {
@@ -57,29 +53,9 @@ function labelGraph() {
     }
 }
 
-// function umrechner(x,y) {
-//     // 1x ≙ 50px
-//     return { 
-//         x: 
-//     }
-// }
-
 window.addEventListener("load", e => { 
     drawGraph();
     drawFunction();
-    
 })
 
 window.addEventListener("resize", resize)
-
-
-// for (let x = start; x <= max; x++) { 
-//     v = Math.exp(x);
-//     h = centerOfPage+ v  + "px" 
-//     w =   0 + x  + "px" 
-//     let codeForPoints = document.createElement("div");
-//     codeForPoints.setAttribute("style", `background-color: red; height:0.5px; width:0.5px; border-radius:50%; border: solid black 0.1px; position: absolute; bottom:${h}; left: ${w}; z-index: 100;` )
-//     document.body.appendChild(codeForPoints)
-// }
-
-
